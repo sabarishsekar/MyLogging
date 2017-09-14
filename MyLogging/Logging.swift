@@ -23,7 +23,7 @@ public class MyLog {
     }
     
     //4.
-    public func YPrint<T>(value: T) {
+    public func myPrint<T>(value: T) {
         if self.isDebug == true {
             print(value)
         } else {
