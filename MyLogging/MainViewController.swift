@@ -8,6 +8,10 @@
 
 import UIKit
 
+@objc public protocol LoginDelegate: class {
+    
+}
+
 public class MainViewController: UIViewController {
 
     @IBOutlet weak var companyName: UILabel!
@@ -19,6 +23,8 @@ public class MainViewController: UIViewController {
     
     @IBOutlet weak var btnSubmit: UIButton!
     
+    public weak var delegate: LoginDelegate?
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -28,6 +34,14 @@ public class MainViewController: UIViewController {
     public override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    public class func createLoginViewControllerWithDelegate(dgt: LoginDelegate) -> MainViewController {
+        let frameworkBundle = Bundle(identifier: "com.ibm.mylogging.login")
+        let frameworkStoryboard = UIStoryboard(name: "Login", bundle: frameworkBundle)
+        let loginVC: MainViewController? = frameworkStoryboard.instantiateViewController(withIdentifier: "mainViewController") as? MainViewController
+        loginVC?.delegate = dgt
+        return loginVC!
     }
     
     @IBAction func btnSubmitEvent(_ sender: Any) {

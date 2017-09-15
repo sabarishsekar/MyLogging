@@ -11,6 +11,7 @@
 		AB513D6B1F6AC5AB002E37E8 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB513D6A1F6AC5AB002E37E8 /* Logging.swift */; };
 		AB513D921F6BA673002E37E8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB513D911F6BA673002E37E8 /* MainViewController.swift */; };
 		AB513D941F6BA68A002E37E8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB513D931F6BA68A002E37E8 /* MainViewController.xib */; };
+		AB513DB81F6BF51B002E37E8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB513DB71F6BF51B002E37E8 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		AB513D6A1F6AC5AB002E37E8 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
 		AB513D911F6BA673002E37E8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		AB513D931F6BA68A002E37E8 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		AB513DB71F6BF51B002E37E8 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				AB513D6A1F6AC5AB002E37E8 /* Logging.swift */,
 				AB513D911F6BA673002E37E8 /* MainViewController.swift */,
 				AB513D931F6BA68A002E37E8 /* MainViewController.xib */,
+				AB513DB71F6BF51B002E37E8 /* Login.storyboard */,
 			);
 			path = MyLogging;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB513DB81F6BF51B002E37E8 /* Login.storyboard in Resources */,
 				AB513D941F6BA68A002E37E8 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

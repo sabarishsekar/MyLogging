@@ -64,6 +64,9 @@
                         <state key="normal" title="Submit">
                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
+                        <connections>
+                            <action selector="btnSubmitEvent:" destination="8E9-Iq-fbQ" eventType="touchUpInside" id="u6w-e2-fEc"/>
+                        </connections>
                     </button>
                 </subviews>
                 <color key="backgroundColor" red="0.047058823530000002" green="0.38823529410000002" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -73,6 +76,12 @@
                     <constraint firstItem="4TD-M8-sg1" firstAttribute="leading" secondItem="Hwy-hm-wFm" secondAttribute="leading" constant="20" id="qTS-yp-e7i"/>
                 </constraints>
             </view>
+            <connections>
+                <outlet property="btnSubmit" destination="OP5-0g-Q8a" id="Pbk-Sl-wNb"/>
+                <outlet property="companyName" destination="4TD-M8-sg1" id="dg6-eY-IsB"/>
+                <outlet property="password" destination="3vT-N6-gdW" id="M4T-bP-fQT"/>
+                <outlet property="userName" destination="Hg4-Me-LOq" id="r9L-Ho-7xq"/>
+            </connections>
             <point key="canvasLocation" x="-20" y="338"/>
         </viewController>
     </objects>
