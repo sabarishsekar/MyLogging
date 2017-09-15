@@ -36,13 +36,13 @@ public class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    public class func createLoginViewControllerWithDelegate(dgt: LoginDelegate) -> MainViewController {
-        let frameworkBundle = Bundle(identifier: "com.ibm.mylogging.login")
-        let frameworkStoryboard = UIStoryboard(name: "Login", bundle: frameworkBundle)
-        let loginVC: MainViewController? = frameworkStoryboard.instantiateViewController(withIdentifier: "mainViewController") as? MainViewController
-        loginVC?.delegate = dgt
-        return loginVC!
-    }
+//    public class func createLoginViewControllerWithDelegate(dgt: LoginDelegate) -> MainViewController {
+//        let frameworkBundle = Bundle(identifier: "com.ibm.mylogging.login")
+//        let frameworkStoryboard = UIStoryboard(name: "Login", bundle: frameworkBundle)
+//        let loginVC: MainViewController? = frameworkStoryboard.instantiateViewController(withIdentifier: "mainViewController") as? MainViewController
+//        loginVC?.delegate = dgt
+//        return loginVC!
+//    }
     
     @IBAction func btnSubmitEvent(_ sender: Any) {
         

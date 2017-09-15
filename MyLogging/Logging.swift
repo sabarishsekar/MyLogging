@@ -30,4 +30,12 @@ public class MyLog {
             //Do any stuff for production mode
         }
     }
+    
+    public func createLoginViewControllerWithDelegate(dgt: LoginDelegate) -> MainViewController {
+        let frameworkBundle = Bundle(identifier: "com.ibm.mylogging.login")
+        let frameworkStoryboard = UIStoryboard(name: "Login", bundle: frameworkBundle)
+        let loginVC: MainViewController? = frameworkStoryboard.instantiateViewController(withIdentifier: "mainViewController") as? MainViewController
+        loginVC?.delegate = dgt
+        return loginVC!
+    }
 }
