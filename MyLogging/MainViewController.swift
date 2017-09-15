@@ -9,7 +9,7 @@
 import UIKit
 
 @objc public protocol LoginDelegate: class {
-    
+    func submitBtnTapped()
 }
 
 public class MainViewController: UIViewController {
@@ -45,7 +45,8 @@ public class MainViewController: UIViewController {
 //    }
     
     @IBAction func btnSubmitEvent(_ sender: Any) {
-        
+        print("Submit btn tapped")
+        self.delegate?.submitBtnTapped()
     }
     
 
