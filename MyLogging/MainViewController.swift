@@ -10,7 +10,7 @@ import UIKit
 
 public class MainViewController: UIViewController {
 
-    @IBOutlet weak public var companyName: UILabel!
+    @IBOutlet public weak var companyName: UILabel!
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var password: UILabel!
     
