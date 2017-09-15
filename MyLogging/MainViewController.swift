@@ -10,7 +10,7 @@ import UIKit
 
 public class MainViewController: UIViewController {
 
-    @IBOutlet public weak var companyName: UILabel!
+    @IBOutlet weak var companyName: UILabel!
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var password: UILabel!
     
@@ -19,14 +19,10 @@ public class MainViewController: UIViewController {
     
     @IBOutlet weak var btnSubmit: UIButton!
     
-    public init() {
-        
-    }
-    
     public override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        // Test comment
+        print("MainViewController: viewDidLoad method executed...")
     }
 
     public override func didReceiveMemoryWarning() {
