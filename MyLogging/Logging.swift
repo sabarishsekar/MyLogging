@@ -35,9 +35,13 @@ public class MyLog {
 //        let frameworkBundle = Bundle(identifier: "com.ibm.mylogging.login")
 //        let frameworkStoryboard = UIStoryboard(name: "Login", bundle: frameworkBundle)
         
+        print("Step1")
         let loginStoryboard: UIStoryboard = UIStoryboard(name: "Login", bundle: nil)
+        print("Step2")
         let loginVC: MainViewController? = loginStoryboard.instantiateViewController(withIdentifier: "mainViewController") as? MainViewController
+        print("Step3")
         loginVC?.delegate = dgt
+        print("Step4")
         return loginVC!
     }
 }
