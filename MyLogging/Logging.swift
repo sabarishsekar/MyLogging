@@ -32,9 +32,11 @@ public class MyLog {
     }
     
     public func createLoginViewControllerWithDelegate(dgt: LoginDelegate) -> MainViewController {
-        let frameworkBundle = Bundle(identifier: "com.ibm.mylogging.login")
-        let frameworkStoryboard = UIStoryboard(name: "Login", bundle: frameworkBundle)
-        let loginVC: MainViewController? = frameworkStoryboard.instantiateViewController(withIdentifier: "mainViewController") as? MainViewController
+//        let frameworkBundle = Bundle(identifier: "com.ibm.mylogging.login")
+//        let frameworkStoryboard = UIStoryboard(name: "Login", bundle: frameworkBundle)
+        
+        let loginStoryboard: UIStoryboard = UIStoryboard(name: "Login", bundle: nil)
+        let loginVC: MainViewController? = loginStoryboard.instantiateViewController(withIdentifier: "mainViewController") as? MainViewController
         loginVC?.delegate = dgt
         return loginVC!
     }
