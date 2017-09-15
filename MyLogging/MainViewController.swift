@@ -19,6 +19,10 @@ public class MainViewController: UIViewController {
     
     @IBOutlet weak var btnSubmit: UIButton!
     
+    public init() {
+        
+    }
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
