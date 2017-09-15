@@ -12,7 +12,7 @@
         <!--Main View Controller-->
         <scene sceneID="0BJ-US-F51">
             <objects>
-                <viewController restorationIdentifier="mainViewController" storyboardIdentifier="mainViewController" id="UK0-OX-dui" customClass="MainViewController" customModule="MyLogging" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mainViewController" id="UK0-OX-dui" customClass="MainViewController" customModule="MyLogging" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xl1-Cd-yEI"/>
                         <viewControllerLayoutGuide type="bottom" id="cYf-Vj-7La"/>

@@ -36,7 +36,7 @@ public class MyLog {
 //        let frameworkStoryboard = UIStoryboard(name: "Login", bundle: frameworkBundle)
         
         print("Step1")
-        let loginStoryboard: UIStoryboard = UIStoryboard(name: "Login", bundle: nil)
+        let loginStoryboard: UIStoryboard = UIStoryboard(name: "Login", bundle: Bundle(for: MainViewController.self))
         print("Step2")
         let loginVC: MainViewController? = loginStoryboard.instantiateViewController(withIdentifier: "mainViewController") as? MainViewController
         print("Step3")

@@ -11,7 +11,7 @@
 		AB513D6B1F6AC5AB002E37E8 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB513D6A1F6AC5AB002E37E8 /* Logging.swift */; };
 		AB513D921F6BA673002E37E8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB513D911F6BA673002E37E8 /* MainViewController.swift */; };
 		AB513D941F6BA68A002E37E8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB513D931F6BA68A002E37E8 /* MainViewController.xib */; };
-		AB513DBA1F6C115B002E37E8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB513DB91F6C115B002E37E8 /* Login.storyboard */; };
+		AB513DBB1F6C1468002E37E8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB513DB91F6C115B002E37E8 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -134,7 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB513DBA1F6C115B002E37E8 /* Login.storyboard in Resources */,
+				AB513DBB1F6C1468002E37E8 /* Login.storyboard in Resources */,
 				AB513D941F6BA68A002E37E8 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
