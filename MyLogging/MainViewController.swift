@@ -14,12 +14,12 @@ import UIKit
 
 public class MainViewController: UIViewController {
 
-    @IBOutlet weak var companyName: UILabel!
-    @IBOutlet weak var userName: UILabel!
-    @IBOutlet weak var password: UILabel!
+    @IBOutlet public weak var companyName: UILabel!
+    @IBOutlet public weak var userName: UILabel!
+    @IBOutlet public weak var password: UILabel!
     
-    @IBOutlet weak var usernameTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet public weak var usernameTextField: UITextField!
+    @IBOutlet public weak var passwordTextField: UITextField!
     
     @IBOutlet weak var btnSubmit: UIButton!
     
